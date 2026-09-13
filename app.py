@@ -219,7 +219,6 @@ import os
 
 # Get port assigned by Render, default to 7860 if local
 port = int(os.environ.get("PORT", 7860))
-
 demo.launch(server_name="0.0.0.0", server_port=port)
 
 
