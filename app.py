@@ -7,7 +7,8 @@ import gradio as gr
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import train_train_split, train_test_split
+from sklearn.model_selection import train_test_split
+
 
 # ==============================================================================
 # 1. LOCAL TOPOGRAPHICAL LUNAR BASEMAP GENERATOR
