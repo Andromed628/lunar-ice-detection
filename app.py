@@ -215,5 +215,9 @@ with gr.Blocks(theme=gr.themes.Soft(), title="TechQuest 2026 - Lunar Ice AI") as
                 inputs=[slope_input, cpr_land, ice_prob_land],
                 outputs=landing_output,
             )
-  demo.launch(server_name="0.0.0.0", server_port=7860)
+
+import os
+
+port = int(os.environ.get("PORT", 7860))
+demo.launch(server_name="0.0.0.0", server_port=port)
 
